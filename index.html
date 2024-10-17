@@ -3,46 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Kal</title>
+    <meta name="description" content="Portfolio website for showcasing web development projects and skills">
+    <title>Portfolio - Your Name</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <!-- Add project details here -->
-            <article class="project">
-                <h3>Project One</h3>
-                <p>Description of project one.</p>
-            </article>
-            <article class="project">
-                <h3>Project Two</h3>
-                <p>Description of project two.</p>
-            </article>
-        </div>
-    </section>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <h2>Crafting Clean, Modern Web Experiences</h2>
+                <p>Developer specializing in building fast, responsive, and sleek websites.</p>
+                <a href="#projects" class="cta-button">View Projects</a>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Short bio about yourself and your skills.</p>
-    </section>
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project One</h3>
+                    <p>A description of Project One. Built using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project Two</h3>
+                    <p>A description of Project Two. Built using React and Node.js.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:kalmoremon@gmail.com">kalmoremon@gmail.com</a></p>
-    </section>
+        <!-- About Section -->
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with a focus on creating fast, responsive, and accessible websites. My expertise includes front-end development using HTML, CSS, JavaScript, and frameworks like React.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out for collaboration or freelance opportunities!</p>
+            <a href="mailto:youremail@example.com" class="cta-button">Get in Touch</a>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 KAL-WEBDEV</p>
+        <div class="container">
+            <p>&copy; 2024 Your Name</p>
+        </div>
     </footer>
 </body>
 </html>
